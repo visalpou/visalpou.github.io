@@ -225,7 +225,7 @@ html, body {
 } 
 
 .hero img {
-    height: 700px;
+    height: 750px;
     object-fit: cover;
 }
 
@@ -446,6 +446,12 @@ html, body {
 
 .modal-body h4 {
     font-weight: 700;
+}
+
+.footer{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
 }
 
 .modal-footer {

@@ -16,7 +16,7 @@
 	}
 
 	.hero img {
-		height: 500px;
+		height: 600px;
 	}
 
 	/* SITEMAIN
@@ -24,6 +24,11 @@
 	/* Modal */
 	.modal-header {
 		height: 400px;
+	}
+	.footer{
+		display: flex; 
+		justify-content: space-between;
+		align-items: center;
 	}
 }
 
@@ -65,7 +70,7 @@
 	}
 
 	.hero img {
-		height: 420px;
+		height: 520px;
 	}
 
 	/* SITEMAIN
@@ -129,6 +134,11 @@
 	/* Modal */
 	.modal-header {
 		height: 350px;
+	}
+	.footer{
+		display: flex; 
+		justify-content: space-between;
+		align-items: center;
 	}
 }
 
@@ -308,7 +318,7 @@
 	}
 
 	.hero img {
-		height: 360px
+		height: 450px
 	}
 
 	/* SITEMAIN
@@ -403,6 +413,14 @@
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 479px) {
+
+	.footer{
+		display: flex; 
+		gap: 5px;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
 	.visible-xxs {
 		display: block;
 	}
