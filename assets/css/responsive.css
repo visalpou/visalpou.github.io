@@ -479,4 +479,8 @@
 	.site-footer .col-xs-offset-3 {
 		margin-left: 0;
 	}
+
+	#contact ul{
+		padding: 0;
+	}
 }
