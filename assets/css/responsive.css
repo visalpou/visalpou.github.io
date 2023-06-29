@@ -413,7 +413,16 @@
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 479px) {
-
+	.site-header{
+		background-color: #dbd9d9 !important;
+	}
+	.hero { 
+		/* background: url(../img/bg1.jpg) no-repeat center / cover; */
+		background-color: #fff;
+		height: 100%;
+		width: 100%;
+		min-height: 700px;
+	}
 	.footer{
 		display: flex; 
 		gap: 5px;
