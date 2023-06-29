@@ -174,12 +174,7 @@ html, body {
 
 /* HERO
 ================================================== */
-/* .hero { 
-    background: url(../img/bg1.jpg) no-repeat center / cover; 
-    height: 100%;
-    width: 100%;
-    min-height: 700px;
-} */
+
 
 .hero .container {
     position: relative;
