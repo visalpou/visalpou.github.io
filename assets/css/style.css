@@ -224,11 +224,6 @@ body {
   line-height: 1;
 }
 
-.hero img {
-  height: 750px;
-  object-fit: cover;
-}
-
 /* SITEMAIN
 ================================================== */
 .site-main {

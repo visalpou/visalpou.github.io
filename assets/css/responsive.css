@@ -1,5 +1,10 @@
 /*==========  Non-Mobile First Method  ==========*/
 
+.hero img {
+  height: 600px;
+  object-fit: cover;
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px) {
 	/* HEADER
