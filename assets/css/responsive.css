@@ -39,6 +39,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
+	
 	/* CUSTOM RESETS
 	================================================== */
 	h4 {
@@ -495,6 +496,9 @@
 		height: 100%;
 		width: 100%;
 		min-height: 700px;
+	}
+	#menu{
+		margin-top: 10px;
 	}
 }
 
