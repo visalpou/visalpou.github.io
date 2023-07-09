@@ -37,7 +37,7 @@
     </section>
     <!-- End Navbar -->
 
-    <section>
+    <section style="padding-bottom: 25px;">
       <div style="position: relative; overflow: hidden">
         <img
           width="100%"
@@ -118,6 +118,25 @@
             </div>
           </a>
           <!-- end modal -->
+
+          <!-- active class -->
+          <a class="blog" href="#activeclass" rel="modal:open">
+            <div>
+              <img
+                src="assets/img/atclass.jpg"
+                width="100%"
+                height="180px"
+                style="object-fit: cover"
+                alt="fs"
+              />
+            </div>
+            <div style="padding: 0px 10px">
+              <h3 style="text-transform: capitalize">Active Class with Javascript</h3>
+              <p>Create acive class with Javascript</p>
+            </div>
+          </a>
+          <!-- end active class -->
+
         </div>
       </div>
     </section>
@@ -174,5 +193,25 @@
     <pre>&lt;a class="blog" href="#modal" rel="modal:open"&gt;&lt;/a&gt;</pre>
     <h4 style="text-align: center;">Modal</h4>
     <pre>&lt;a href="#" rel="modal:close"&gt;&lt;/a&gt;<br>&lt;div id="modal" class="modal"&gt;&lt;/div&gt;</pre>
+  </div>
+
+  <div id="activeclass" class="modal">
+    <div style="display: flex; justify-content: end; align-items: center; margin-bottom: 15px;">
+      <a href="#" rel="modal:close"
+        ><img
+          src="assets/img/icon/close.png"
+          width="18px"
+          height="18px"
+          alt="close"
+      /></a>
+    </div>
+    <h4 style="text-align: center;">Javascript</h4>
+    <pre>const navLink = document.querySelectorAll("a")
+const windowPathname = window.location.pathname;<br>navLink.forEach(navLink =>{const navLinkPathname = new URL(navLink.href).pathname          
+        if(windowPathname === navLinkPathname){
+            navLink.classList.add('active');
+        }
+})
+    </pre>
   </div>
 </html>
