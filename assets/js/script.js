@@ -1,5 +1,4 @@
 $(function() {
-
     $('.navbar-toggle').click(function() {
         $(this).toggleClass('act');
             if($(this).hasClass('act')) {
