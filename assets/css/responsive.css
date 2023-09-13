@@ -419,6 +419,11 @@
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 479px) {
+	.lang{
+		text-align: center;
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+	}
 	.footer{
 		display: flex; 
 		gap: 5px;

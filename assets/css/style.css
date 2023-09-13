@@ -234,7 +234,7 @@ body {
 }
 /* site-section */
 .site-section {
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 .site-section h2,
@@ -593,4 +593,42 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: #333;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */ 
+}
+
+.banner-contact{
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.banner-contact a img{
+  width: 35px !important;
+  height: 35px !important;
+  object-fit: contain !important;
+}
+
+.lang{
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(9,1fr);
+}
+
+.lang div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.lang div img{
+  width: 60px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.lang div span{
+  font-weight: 600;
+  text-transform: uppercase;
 }
