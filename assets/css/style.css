@@ -283,7 +283,7 @@ body {
 
 .section-services:before {
   content: "";
-  background: url(../img/car.jpg) no-repeat fixed center / cover;
+  background: url(../img/code.jpg) no-repeat fixed center / cover;
   width: 100%;
   height: 400px;
   position: absolute;
