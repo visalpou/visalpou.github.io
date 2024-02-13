@@ -1,3 +1,4 @@
-- building html,css,javascript for portfolio website
+- building sample portfolio website using html,css and javascript
 - all static page
+- aos animation
 - everyone can clone and use it
